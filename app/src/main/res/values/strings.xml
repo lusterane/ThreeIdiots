@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ThreeIdiots</string>
+    <string name="title_activity_toby">TobyActivity</string>
+    <string name="title_activity_bernard">BernardActivity</string>
+    <string name="title_activity_kyle">KyleActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toby.threeidiots.EditActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/tBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="173dp"
+            android:text="Enter" />
+
+        <EditText
+            android:id="@+id/etToby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tBtn"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_toLeftOf="@+id/tBtn"
+            android:layout_toStartOf="@+id/tBtn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/etToby"
+            android:layout_alignLeft="@+id/etToby"
+            android:layout_alignStart="@+id/etToby"
+            android:text="Toby"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etToby"
+            android:layout_alignStart="@+id/etToby"
+            android:layout_below="@+id/etToby"
+            android:layout_marginTop="64dp"
+            android:text="Bernard"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/etBernard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/etToby"
+            android:layout_alignRight="@+id/etToby"
+            android:layout_below="@+id/TextView1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/bBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etBernard"
+            android:layout_toEndOf="@+id/etToby"
+            android:layout_toRightOf="@+id/etToby"
+            android:text="Enter" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etBernard"
+            android:layout_alignStart="@+id/etBernard"
+            android:layout_below="@+id/etBernard"
+            android:layout_marginTop="59dp"
+            android:text="Kyle"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/etKyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/kBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bBtn"
+            android:layout_alignStart="@+id/bBtn"
+            android:layout_alignTop="@+id/etKyle"
+            android:text="Enter" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/kBtn"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/kBtn"
+            android:layout_marginBottom="35dp"
+            android:text="Menu" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>
